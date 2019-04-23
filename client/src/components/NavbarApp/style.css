@@ -1,0 +1,10 @@
+.NavbarApp a{
+    color:white;
+}
+.MuiButtonBase-root-69.MuiButton-root-43.WithStyles-Button--root-42.MuiButton-text-45.MuiButton-flat-48.MuiButton-colorInherit-64.donateButton{
+    background-color: rgb(233, 16, 117);
+    font-weight: bold;
+    -webkit-box-shadow: 0px 0px 48px -4px rgba(240,240,240,1);
+    -moz-box-shadow: 0px 0px 48px -4px rgba(240,240,240,1);
+    box-shadow: 0px 0px 48px -4px rgba(240,240,240,1);
+}

@@ -1,0 +1,29 @@
+.storiesSeeAllContainer{
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-between; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-between;
+}
+.storySeeAllContainer{
+    background-color: white;
+    margin: 1rem;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.fixed{
+    position: -webkit-sticky;
+    position: sticky;
+    top:30%;
+    max-width: 20rem;
+    margin: 1rem;
+}
+.storyTitleContainerSeeAll{
+    max-height: 4.5rem;
+    /*background: #4d5786;*/
+    background:rgb(100, 167, 226);
+    padding: 7px;
+    border-radius: 10px 10px 0 0;
+    min-width: 100%;
+    max-width: 100%;  
+}

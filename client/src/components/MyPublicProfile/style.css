@@ -1,0 +1,79 @@
+.myProfileContainer{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 100%;
+    width: 100%;
+}
+.section1{
+    margin-top: 1rem;
+}
+.left{
+    text-align: left;
+}
+.profileData{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 1rem;
+    padding: 0.3rem;
+    font-weight: bold;
+    color:rgb(45, 45, 46);
+}
+
+.myProfilePictureContainer{
+    margin: 2rem;
+}
+.myProfileCreateStory{
+    position: relative;
+    top: 14rem;
+}
+.uploadButton{
+    margin-top: 4.5rem;
+    text-align: left;
+}
+
+.element{
+    shape-outside: url(https://image.freepik.com/vector-gratis/perfil-avatar-hombre-icono-redondo_24640-14044.jpg);
+    shape-outside: circle(50%);
+    shape-image-threshold: 0.5;
+    float: left;
+    height: 25rem;
+    width: 25rem;
+    margin: 1.5rem;
+    
+}
+.myProfileStoryTitlesContainer{
+    width: 100%;
+    
+}
+.myProfileStoryTitle{
+    background-color: #f11e64;
+    color:white;
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 0.4rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin: 0.5rem;
+    display:inline-block;
+   
+}
+
+.otherPublicInfo{
+    padding-top: 4rem;
+    width: 100%;
+
+}
+.totalContainer{
+    margin-top: 2rem;
+    background-color: #f11e64;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 55px;
+    position: relative;
+    right: -35%;
+    color:white;
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 0.5rem;
+}

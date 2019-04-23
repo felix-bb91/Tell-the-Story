@@ -1,0 +1,72 @@
+
+.loginPictureContainer{
+    width: 100vh;
+    height: 80vh;
+    background-image: url("https://cwsmgmt.corsair.com/newscripts/landing-pages/wallpaper/v4/Wallpaper-v4-1920x1080.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    margin-bottom: 5rem;  
+}
+.hr{
+    /*background-color: rgb(255, 255, 255, 0.7);*/
+    height: 0.5rem;
+    width: 50rem;
+    margin: 3rem;
+}
+.size{
+    height: 70vh;
+    border-radius: 10px;
+    /*background-color: white;*/
+    background-color: rgba(255, 255, 255, 0.616);
+    margin: 1.5rem;
+    padding: 1rem;
+}
+.login{
+    height: 100%;
+}
+.register{
+    height: 100%;
+}
+.socialMedia{
+    background-image: url("https://marketingland.com/wp-content/ml-loads/2014/11/social-media-networks-icons-ss-1920.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.draw{
+    background-image: url("https://st4.depositphotos.com/1005738/21330/v/600/depositphotos_213305048-stock-video-breast-cancer-awareness-month-square.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.idea{
+    height: 40vh;
+    border-radius: 220px;
+    background-color: white;
+    margin: 2rem;
+    padding: 1rem;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/211/346/non_2x/idea-illustration-light-bubl-design-vector-business-icon.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+
+.fontInfo{
+    margin: 2.5rem;
+    font-size: 1rem;
+    font-weight: 450;
+}
+.leftInfo{
+    text-align: justify;
+}
+.fontInfo2{
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 450;
+}
+.fontInfoExtra{
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    font-weight: 350;
+}

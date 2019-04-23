@@ -1,0 +1,55 @@
+.infoContainer{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 100%;
+    width: 100%;
+}
+.section1Info{
+    margin-top: 3rem;
+}
+.leftInfo{
+    text-align: left;
+    
+}
+.fontWeightInfo{
+    font-weight: 450;
+}
+
+.InfoContainer{
+    margin: 2rem;
+}
+
+.elementInfo{
+    shape-outside: url(https://image.freepik.com/vector-gratis/perfil-avatar-hombre-icono-redondo_24640-14044.jpg);
+    shape-outside: circle(50%);
+    shape-image-threshold: 0.5;
+    float: left;
+    height: 25rem;
+    width: 25rem;
+    margin: 1.5rem;
+    
+}
+.element2Info{
+
+    background-image: url("https://cf.ltkcdn.net/charity/images/std/70301-295x407-Breast_cancer_ribbon.jpg");
+    shape-outside: circle(50%);
+    shape-image-threshold: 0.5;
+    float: right;
+    
+    margin: 1.5rem;
+    background-position: center; 
+    height: 25rem;
+    width: 25rem;
+    
+}
+.rightInfo{
+    text-align: right;
+}
+.InfoContainer2{
+    
+}
+.donationInfo{
+    color:rgb(233, 16, 117);
+    font-weight: 650;
+}

@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  /*background-color: rgb(226, 241, 255);*/
+  /*background-color: rgb(255, 219, 235);*/
+  /*background-image: url('../src/img/felix.jpg');*/
+  background-image: url('../src/img/felix2.jpg');
+  min-height: 100vh;
+}
+
+
+

@@ -1,0 +1,45 @@
+
+        <div class="createStory">
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Continuar la historia</button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                    
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h1 class="modal-title">Continúa la historia!!</h1>
+                        </div>
+                        <!-- el action está en navbar.js-->
+                        <form method="POST" class="addSection" action="/addSection/<%= story[0].id %>/<%= token %>">
+                        <div class="modal-body">
+                            <div class="form-group">
+                            <label for="title">Recuerda:</label>
+                            <p>Debes ser coherente con la historia hasta ahora, cuidar la ortografía y respetar la temática impuesta por los tags. </p>
+                            </div>
+                            <div class="form-group">
+                            <label for="body">Escribe aquí tu sección:</label>
+                            <textarea class="form-control" name="body" rows="15" id="body"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer row d-flex justify-content-center">
+                            <div class="col-sm-3"></div>
+                            <button type="button" class="btn btn-danger col-sm-2" data-dismiss="modal"> Cancelar
+                                    <span class="glyphicon glyphicon-trash"></span>&nbsp;
+                            </button>
+                            
+                            <div class="col-sm-1"></div>
+                                <input type="submit" class="btn btn-primary col-sm-2" value="Publicar">
+                            </form>
+    
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+                    
+            </div>
+            <br>

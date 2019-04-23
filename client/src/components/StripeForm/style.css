@@ -1,0 +1,185 @@
+.checkout{
+    margin-top: 4rem;
+    
+}
+.space{
+    margin-bottom: 2rem;
+}
+.donationName{
+    height: 3.2rem !important;
+    width: 20rem !important;
+    
+}
+.donationAmount{
+    height: 3.2rem !important;
+    width: 10rem !important;
+
+}
+.donateLabel{
+    
+    margin-right: 1rem;
+    background-color: #f11e64;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 25px;
+    font-weight: 500;
+}
+.cardElement{
+    background-color: white;
+    height: 3.2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+
+}
+.donateStripeButton{
+    margin:2rem !important;
+}
+.thankyouPic{
+    
+    font-family: 'Sacramento';
+    font-size: 4rem;
+    height: 20rem;
+    max-width: 20rem;
+    margin: 1rem;
+    background-color: rgb(100, 167, 226);
+    color: white;
+    
+    padding: 1rem;
+    max-width: 100%;
+    shape-outside: circle(50%);
+    
+
+
+}
+.thankyou{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    user-select: none;
+    transform: translate(-50%,-50%);
+}
+
+.stripeInfo{
+    margin-top:2rem;
+    font-size: 1.2rem;
+    color: rgb(80, 82, 90);
+}
+
+/*-------------------LOADING---------------------------*/
+
+
+
+.containerLoading{
+    width: 900px;
+    height: 200px;
+    margin: 100px auto;
+    position: relative;
+  }
+  
+  .first_circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #8bd8bd;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    animation: left_to_right 1s ease-in-out 0s infinite;
+  }
+  
+  .second_circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #243665;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    animation: right_to_left 1s ease-in-out 0s infinite;
+  }
+  
+  @keyframes left_to_right {
+    0%,100% {
+      left: 0px;
+    }
+    5%{
+      left: 38px;
+    }
+    10%{
+      left: 76px;
+    }
+    15%{
+      left: 114px;
+    }
+    20%{
+      left: 152px;
+    }
+    25%{
+      left: 190px;
+    }
+    30%{
+      left: 228px;
+    }
+    35%{
+      left: 266px;
+    }
+    40%{
+      left: 304px;
+    }
+    45%{
+      left: 350px;
+      width: 100px;
+      height: 100px;
+    }
+    50%{
+      left: 371px;
+      width: 80px;
+      height: 120px;
+    }
+  }
+  
+  
+  @keyframes right_to_left {
+    0%,100% {
+      right: 0px;
+    }
+    5%{
+      right: 38px;
+    }
+    10%{
+      right: 76px;
+    }
+    15%{
+      right: 114px;
+    }
+    20%{
+      right: 152px;
+    }
+    25%{
+      right: 190px;
+    }
+    30%{
+      right: 228px;
+    }
+    35%{
+      right: 266px;
+    }
+    40%{
+      right: 304px;
+    }
+    45%{
+      right: 350px;
+      width: 100px;
+      height: 100px;
+    }
+    50%{
+      right: 371px;
+      width: 80px;
+      height: 120px;
+    }
+  }
+  

@@ -1,0 +1,104 @@
+.titleContainer{
+    width: 100%;
+    align-content: center;
+    margin: 1.5rem;
+    
+
+}
+.storyTitle{
+    font-family: 'Sacramento';
+    font-size: 4rem;
+    margin: 1rem;
+    background-color: rgb(100, 167, 226);
+    color: white;
+    border-radius: 15px;
+    padding: 1rem;
+    max-width: 100%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.storyBodyContainer{
+    width: 100%;
+    margin: 1rem;  
+}
+.storyBody{
+    background-color: white;
+    border-radius: 15px;
+    text-align: left;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+/*----Esto sobrará luego ya que no pintaremos p sino html------*/
+.storyBody p{
+    line-height: 2rem;
+    padding: 1rem;
+}
+.storyBody p::first-letter {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: rgb(252, 50, 128);
+    text-transform: capitalize;
+    font-family: 'Sacramento';
+    z-index: 4;
+}
+/*-----------------------------------------------------------*/
+
+
+
+.addSectionsContainer{
+    width: 100%;
+    margin: 1rem;
+    min-height: 10rem;
+    padding: 1rem;
+}
+
+
+.sectionsContainer{
+    width: 100%;
+    margin: 1rem;  
+}
+.sectionBody{
+    background-color: white;
+    border-radius: 15px;
+    text-align: left;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.author{
+    text-align: right;
+    font-weight: bold;
+    font-size: 1rem;
+
+    
+    
+}
+.authorText{
+    position: relative;
+    top: 0%;
+    background-color: rgb(252, 50, 128);
+    color: white;
+    padding: 0.5rem;
+    padding-right: 1rem;
+    border-radius: 25px;
+}
+.createStory{
+   
+    position: relative;
+    max-width: 25rem;
+    margin: 1rem;
+    z-index: 10;
+}
+
+.tagsStoryRow{
+    width: 100%;
+    margin: 1rem;
+}
+.oneTag{
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

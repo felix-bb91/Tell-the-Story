@@ -1,0 +1,28 @@
+
+.createStoryContainerComponent {
+    margin-top: 3rem;
+}
+.createStoryContainer{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0) !important;
+
+}
+
+.descriptionCreateStory{
+    font-size: 1.5rem;
+    background-color: rgb(127, 157, 255);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 25px;
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+.leftSteps{
+    text-align: left;
+}
+.editorWidth{
+    width: 60%;
+    position: relative;
+    left: 20%;
+}

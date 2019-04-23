@@ -1,0 +1,27 @@
+<div class="usersAdm" id="usersStatistics">
+     <h1>Gestión de usuarios</h1>
+    <div class="usersAll row">
+    <% if (AllUsersInfo.length > 0) { %>
+        <% for (let user of AllUsersInfo) { %>
+            <% if (user.id != 1 ) { %>
+                <div class="col-sm-3 oneUserInfo">
+                    <p class="userNameStatistics"><%= user.username %>  </p>
+                    <p><%= user.mail %>  </p>
+                    <% if (user.enableAccess == 1) { %>
+                        <p>Acceso permitido: Sí  </p>
+                        <form method="POST" action="/blockAdmin/<%= token %>/<%= user.id %>">
+                            <input type="submit" class="btn btn-danger removeButton" value="Bloquear">
+                        </form>
+                    <% } %>
+                    <% if (user.enableAccess == 0) { %>
+                        <p>Acceso permitido: No  </p>
+                        <form method="POST" action="/unblockAdmin/<%= token %>/<%= user.id %>">
+                            <input type="submit" class="btn btn-success removeButton" value="Desbloquear">
+                        </form>
+                    <% } %>
+                </div>
+            <% } %>
+        <% } %>
+    <% } %>       
+    </div>       
+</div>
